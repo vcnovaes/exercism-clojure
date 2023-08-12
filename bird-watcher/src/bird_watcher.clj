@@ -3,28 +3,24 @@
 (def last-week
   [0 2 5 3 7 8 4])
 
-(defn get-last-idx [arr]
-  (- (count arr) 1))
- 
 
 (defn today [birds]
-  (get
-   birds (get-last-idx birds)))
+  (last birds)
+  )
 
 
 
 (defn inc-bird [birds]
-  (assoc birds
-         (get-last-idx birds)
-         (+ (today birds) 1)))
+  (-> birds 
+      pop 
+      (conj (-> (last birds) inc))
+      )
+)
 
-
-
-(defn day-without-birds? [birds] 
-  (not= 
-   (count 
-    (filter 
-     (fn [x] (= x 0)) birds)) 0) 
+(defn day-without-birds? [birds]
+  (-> birds
+      (not-every? pos-int? birds)
+      )
   )
 
 (defn n-days-count [birds n]
