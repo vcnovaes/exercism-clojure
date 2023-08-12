@@ -1,0 +1,154 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "nbb" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/vcn/exercism/clojure ; npx nbb nrepl-server :port 43253 ; popd
+; Using host:port 127.0.0.1:43253 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+; Could not find namespace: cljs.repl
+cljs꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+cljs꞉user꞉> 
+#'bird-watcher/n-days-count
+clj꞉bird-watcher꞉> 
+4
+clj꞉bird-watcher꞉> 
+15
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: busy-days
+clj꞉bird-watcher꞉> 
+3
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+1
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+0
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+#'bird-watcher/odd-week?
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+#'bird-watcher/day-without-birds?
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 
+#'bird-watcher/day-without-birds?
+clj꞉bird-watcher꞉> 
+#object[Function]
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+#'bird-watcher/day-without-birds?
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+(0)
+clj꞉bird-watcher꞉> 
+1
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 
+#object[Function]
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: birds
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: birds
+clj꞉bird-watcher꞉> 
+; EOF while reading, expected ) to match ( at [1,1]
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: birds
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+0
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: birds
+clj꞉bird-watcher꞉> 
+0
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+false
+clj꞉bird-watcher꞉> 
+; Could not resolve symbol: birds
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+(1 2 3 4)
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+(0)
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+([1 0 0 0 1])
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+()
+clj꞉bird-watcher꞉> 
+(0 0 0)
+clj꞉bird-watcher꞉> 
+#'bird-watcher/day-without-birds?
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 
+true
+clj꞉bird-watcher꞉> 

@@ -20,9 +20,12 @@
 
 
 
-(defn day-without-birds? [birds]
-  (= (count (filter (fn [x] (= 0 x)) [birds])) 0))
-
+(defn day-without-birds? [birds] 
+  (not= 
+   (count 
+    (filter 
+     (fn [x] (= x 0)) birds)) 0) 
+  )
 
 (defn n-days-count [birds n]
   (let [idx (dec n)]
@@ -33,9 +36,23 @@
      birds idx)))
 
 
+(defn busy-days [birds]
+  (count (filter (fn [n] (>= n 5)) 
+          birds
+          ))
+  )
 
-(defn busy-days [birds])
-
-
-(defn odd-week? [birds])
-  
+(defn odd-week? [birds] 
+  ((fn is-odd [arr idx] 
+    (if (= (- (count arr) 2) idx) 
+      (if (= (get arr idx) 0 ) 
+        (not= 0 (get arr (inc idx)))
+        (not= 1 (get arr (inc idx)))
+        )
+      (if (= (get arr idx) 0 ) 
+        (and (not= 0 (get arr (inc idx))) (is-odd arr (inc idx)))
+        (and (not= 1 (get arr (inc idx))) (is-odd arr (inc idx)))
+        )
+      )) birds 0 
+    )
+  )
